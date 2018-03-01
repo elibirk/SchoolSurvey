@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.spec.cis410_hw5.MainActivity">
+
+    <Button
+        android:id="@+id/btn_take_survey"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Take Survey"
+        android:onClick="TakeSurvey"
+        android:textSize="40dp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_see_result"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="See Result"
+        android:onClick="ViewResult"
+        android:textSize="40dp">
+    </Button>
+
+</LinearLayout>

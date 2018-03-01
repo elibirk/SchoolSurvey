@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/survey_sectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Student Information"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/survey_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.2 My student classification is:"/>
+
+
+    <RadioGroup
+        android:id="@+id/survey_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First-Year: 0-29 credit hours earned"/>
+        <RadioButton
+            android:id="@+id/rb_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sophomore: 30-59 credit hours earned" />
+        <RadioButton
+            android:id="@+id/rb_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Junior: 60-89 credit hours earned"/>
+        <RadioButton
+            android:id="@+id/rb_fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior: 90 or more credits hours earned"/>
+        <RadioButton
+            android:id="@+id/rb_grad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graduate"/>
+        <RadioButton
+            android:id="@+id/rb_cert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certificate Seeking"/>
+        <RadioButton
+            android:id="@+id/rb_unclassified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unclassified"/>
+        <RadioButton
+            android:id="@+id/rb_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"/>
+    </RadioGroup>
+
+</LinearLayout>

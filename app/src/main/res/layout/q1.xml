@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/survey_sectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. About the Instructor"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/survey_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To fill out this survey, simply answer the question, then swipe to move to the next question.
+        \n\nYou may swipe to begin."/>
+
+
+    <RadioGroup
+        android:id="@+id/survey_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_sa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strongly Agree"/>
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agree" />
+        <RadioButton
+            android:id="@+id/rb_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neutral"/>
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disagree"/>
+        <RadioButton
+            android:id="@+id/rb_sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strongly Disagree"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="bottom"
+        android:hint="You may swipe to move to the next question.\nProgram will save automatically. "/>
+
+</LinearLayout>
